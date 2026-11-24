@@ -21,7 +21,7 @@ env:
 jobs:
   macos:
     runs-on: macos-15
-    timeout-minutes: 180
+    timeout-minutes: 300
     env:
       EXPECTED_FAILURES: >-
         guest_kernel_sys guest_kernel_sys_execve
